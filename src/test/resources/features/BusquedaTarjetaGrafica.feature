@@ -1,5 +1,8 @@
+
+
 Feature: Busqueda tarjeta grafica
-  Scenario: Realizar una busqueda dentro de la pagina de una tarjeta grafica Nvidia
+  Scenario: Realizar una busqueda dentro de la pagina de una tarjeta grafica Nvidia 5070TI
+
     Given al navegar hasta la url "https://www.spdigital.cl/"
     When coloco en el campo de busqueda "//input[contains(@class,'Fractal-SearchBar--searchbar')]" el valor de "Tarjeta de Video GIGABYTE GeForce RTX 5070 TI"
     And debo realizar un clic en el resultado "(//a[contains(@class,'Fractal-Link--link  Common-module--productPreview--GTtiZ')])[6]"
